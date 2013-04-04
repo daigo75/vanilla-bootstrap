@@ -1,0 +1,24 @@
+.Errors
+   @extend .alert
+   @extend .alert-error
+
+   ul
+      &,
+      li
+         margin: 0 !important
+         padding: 0 !important
+         background: none !important
+         border: none !important
+         color: $errorText !important
+
+.DismissMessage
+   @extend .alert
+
+.CasualMessage
+   @extend .alert-success
+
+.InfoMessage
+   @extend .alert-info
+
+.WarningMessage
+   @extend .alert-error
